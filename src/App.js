@@ -10,73 +10,104 @@ import "./index.css";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedPriceRange, setSelectedPriceRange] = useState(null);
+  const [selectedColor, setSelectedColor] = useState(null);
+  const [selectedCompany, setSelectedCompany] = useState(null);
 
-  // ----------- Input Filter -----------
   const [query, setQuery] = useState("");
 
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
 
-  const filteredItems = products.filter(
-    (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
-  );
-
-  // ----------- Radio Filtering -----------
-  const handleChange = (event) => {
-    setSelectedCategory(event.target.value);
-  };
-
-  // ------------ Button Filtering -----------
   const handleClick = (event) => {
-    setSelectedCategory(event.target.value);
+    console.log("handleClick called with event:", event); // Log the event object
+    const { name, value } = event.target;
+    if (name === "company") {
+      console.log("Selected company:", value); // Log the selected company
+      setSelectedCompany(value);
+    }
+  };
+  
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    if (name === "category") {
+      setSelectedCategory(value);
+    } else if (name === "priceRange") {
+      setSelectedPriceRange(value);
+    } else if (name === "color") {
+      setSelectedColor(value);
+    }
+    else if (name === "company") {
+    setSelectedCompany(value);
+  }
   };
 
-  function filteredData(products, selected, query) {
-    let filteredProducts = products;
-
-    // Filtering Input Items
-    if (query) {
-      filteredProducts = filteredItems;
-    }
-
-    // Applying selected filter
-    if (selected) {
-      filteredProducts = filteredProducts.filter(
-        ({ category, color, company, newPrice, title }) =>
-          category === selected ||
-          color === selected ||
-          company === selected ||
-          newPrice === selected ||
-          title === selected
+  function filteredData(products, selectedCategory, selectedPriceRange, selectedColor, selectedCompany, query) {
+    let filteredProducts = [...products]; // Make a copy of the original products array
+  
+    if (selectedCategory) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.category === selectedCategory
       );
     }
-
-    return filteredProducts.map(
-      ({ img, title, star, location, prevPrice, newPrice }) => (
-        <Card
-          key={Math.random()}
-          img={img}
-          title={title}
-          star={star}
-          location={location}
-          prevPrice={prevPrice}
-          newPrice={newPrice}
-        />
-      )
-    );
+  
+    if (selectedPriceRange) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.priceRange === selectedPriceRange
+      );
+    }
+  
+    if (selectedColor) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.color === selectedColor
+      );
+    }
+  
+    if (selectedCompany) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.company === selectedCompany
+      );
+    }
+  
+    if (query) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.title.toLowerCase().includes(query.toLowerCase())
+      );
+    }
+  
+    console.log("Filtered Products:", filteredProducts); // Debugging: Log filtered products
+  
+    return filteredProducts.map(({ img, title, star, location, prevPrice, newPrice }) => (
+      <Card
+        key={Math.random()}
+        img={img}
+        title={title}
+        star={star}
+        location={location}
+        prevPrice={prevPrice}
+        newPrice={newPrice}
+      />
+    ));
   }
+  
 
-  const result = filteredData(products, selectedCategory, query);
+  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedColor,selectedCompany, query);
+
+  console.log("Result:", result); // Debugging: Log result before rendering
 
   return (
     <>
       <Sidebar handleChange={handleChange} />
       <Navigation query={query} handleInputChange={handleInputChange} />
-      <Recommended handleClick={handleClick} />
+      {/* <Recommended handleClick={handleChange} /> */}
+      <Recommended handleClick={handleClick} /> {/* Pass the handleClick function */}
+
       <Products result={result} />
     </>
   );
 }
+
 
 export default App;

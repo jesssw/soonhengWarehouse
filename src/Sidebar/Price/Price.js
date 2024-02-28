@@ -1,46 +1,22 @@
-import Input from "../../components/Input";
+import React from "react";
 import "./Price.css";
 
 const Price = ({ handleChange }) => {
+  const handleSelectChange = (event) => {
+    handleChange(event); // Invoke the handleChange function for dropdown changes
+  };
+
   return (
-    <>
-      <div className="ml">
-        <h2 className="sidebar-title price-title">Price</h2>
-
-        <label className="sidebar-label-container">
-          <input onChange={handleChange} type="radio" value="" name="test2" />
-          <span className="checkmark"></span>All
-        </label>
-
-        <Input
-          handleChange={handleChange}
-          value={50}
-          title="$0 - 50"
-          name="test2"
-        />
-
-        <Input
-          handleChange={handleChange}
-          value={100}
-          title="$50 - $100"
-          name="test2"
-        />
-
-        <Input
-          handleChange={handleChange}
-          value={150}
-          title="$100 - $150"
-          name="test2"
-        />
-
-        <Input
-          handleChange={handleChange}
-          value={200}
-          title="Over $150"
-          name="test2"
-        />
-      </div>
-    </>
+    <div className="ml">
+      <h2 className="sidebar-title price-title">Price</h2>
+      <select onChange={handleSelectChange} className="price-dropdown" name="priceRange">
+        <option value="">All</option>
+        <option value="0-50">$0 - $50</option>
+        <option value="50-100">$50 - $100</option>
+        <option value="100-150">$100 - $150</option>
+        <option value="150">Over $150</option>
+      </select>
+    </div>
   );
 };
 
