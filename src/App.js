@@ -13,6 +13,7 @@ function App() {
   const [selectedPriceRange, setSelectedPriceRange] = useState(null);
   const [selectedColor, setSelectedColor] = useState(null);
   const [selectedCompany, setSelectedCompany] = useState(null);
+  const [selectedModel, setSelectedModel] = useState(null);
 
   const [query, setQuery] = useState("");
 
@@ -23,19 +24,16 @@ function App() {
   const handleClick = (event) => {
     setSelectedCompany(event.target.value);
   };
-  // const handleClick = (event) => {
-  //   console.log("handleClick called with event:", event); // Log the event object
-  //   const { name, value } = event.target;
-  //   if (name === "company") {
-  //     console.log("Selected company:", value); // Log the selected company
-  //     setSelectedCompany(value);
-  //   }
+  // const handleModelClick = (event) => {
+  //   setSelectedModel(event.target.value);
   // };
+  
+
   
   const handleClearFilters = () => {
     setSelectedCategory(null);
     setSelectedPriceRange(null);
-    setSelectedColor(null);
+    setSelectedModel(null);
     setSelectedCompany(null);
     setQuery("");
   };
@@ -45,14 +43,15 @@ function App() {
       setSelectedCategory(value);
     } else if (name === "priceRange") {
       setSelectedPriceRange(value);
-    } else if (name === "color") {
-      setSelectedColor(value);
+    } else if (name === "model") {
+      setSelectedModel(value);
     }
     else if (name === "company") {
     setSelectedCompany(value);
   }
   };
-  function filteredData(products, selectedCategory, selectedPriceRange, selectedColor, selectedCompany, query) {
+  
+  function filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query) {
     let filteredProducts = [...products]; // Make a copy of the original products array
   
     if (selectedCategory) {
@@ -67,9 +66,9 @@ function App() {
       );
     }
   
-    if (selectedColor) {
+    if (selectedModel) {
       filteredProducts = filteredProducts.filter(product =>
-        product.color === selectedColor
+        product.model === selectedModel
       );
     }
   
@@ -113,7 +112,7 @@ function App() {
   }
   
 
-  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedColor,selectedCompany, query);
+  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedModel,selectedCompany, query);
 
   console.log("Result:", result); // Debugging: Log result before rendering
 
@@ -121,7 +120,6 @@ function App() {
     <>
       <Sidebar handleChange={handleChange} />
       <Navigation query={query} handleInputChange={handleInputChange} />
-      {/* <Recommended handleClick={handleClick} /> */}
       <Recommended
         handleClick={handleClick}
         handleClearFilters={handleClearFilters}

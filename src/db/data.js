@@ -114,8 +114,8 @@ const data = [
     "location": "LA-A-1",
     "stock_quantity": 10,
     "newPrice": 200,
-    "company": "Nike",
-    "model": "Accord",
+    "company": "Honda",
+    "model": "Civic",
     "stock_brand": "green",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z"

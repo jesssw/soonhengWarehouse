@@ -21,7 +21,7 @@
 // export default Sidebar;
 import Category from "./Category/Category";
 import Price from "./Price/Price";
-import Colors from "./Colors/Colors";
+import Model from "./Model/Model";
 import Company from "./Company/Company";
 
 import "./Sidebar.css";
@@ -35,7 +35,7 @@ const Sidebar = ({ handleChange }) => {
     handleChange(event);
   };
 
-  const handleColorChange = (event) => {
+  const handleModelChange = (event) => {
     handleChange(event);
   };
 
@@ -51,7 +51,7 @@ const Sidebar = ({ handleChange }) => {
         </div>
         <Category handleChange={handleCategoryChange} />
         <Price handleChange={handlePriceChange} />
-        <Colors handleChange={handleColorChange} />
+        <Model handleChange={handleModelChange} />
         <Company handleChange={handleCompanyChange}/>
       </section>
     </>

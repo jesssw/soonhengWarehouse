@@ -71,15 +71,15 @@ import "./Colors.css";
 const Colors = ({ handleChange }) => {
   return (
     <div>
-      <h2 className="sidebar-title color-title">Colors</h2>
+      <h2 className="sidebar-title color-title">Models</h2>
       <div>
         <select onChange={handleChange} className="color-dropdown" name="color">
           <option value="">All</option>
-          <option value="black">Black</option>
-          <option value="blue">Blue</option>
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-          <option value="white">White</option>
+          <option value="Vios">Vios</option>
+          <option value="Accord">Accord</option>
+          <option value="City">City</option>
+          {/* <option value="green">Green</option>
+          <option value="white">White</option> */}
         </select>
       </div>
     </div>
