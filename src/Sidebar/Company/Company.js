@@ -1,26 +1,5 @@
 
 
-// import React from "react";
-// import "./Company.css";
-
-// function Company({ handleChange }) {
-//   return (
-//     <div>
-//       <h2 className="sidebar-title">company</h2>
-//       <div>
-//         <select onChange={handleChange} className="category-dropdown" name="company">
-//           <option value="">All</option>
-//           <option value="Honda">Honda</option>
-//           <option value="Toyota">Toyota</option>
-         
-//         </select>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Company;
-
 import React from "react";
 import "./Company.css";
 
