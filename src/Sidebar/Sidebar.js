@@ -51,7 +51,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
           handleChange={handleModelChange}
           selectedCompany={selectedCompany}
         />
-        <Category handleChange={handleCategoryChange} />
+        <Category handleChange={handleCategoryChange}  />
         <button onClick={clearAllFilters}>Clear All Filters</button>
       </section>
     </>

@@ -31,7 +31,7 @@ function Category({ handleChange }) {
     <div>
       <h2 className="sidebar-title">Category</h2>
       <div>
-        <select onChange={handleChange} className="category-dropdown" name="category">
+        <select onChange={handleChange}  className="category-dropdown" name="category">
           <option value="">All</option>
           <option value="Oil Filter">Oil Filter</option>
           <option value="sneakers">Sneakers</option>

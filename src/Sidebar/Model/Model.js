@@ -1,23 +1,40 @@
-
-
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Model.css";
 
-function Model({ handleChange }) {
+function Model({ handleChange, selectedCompany }) {
+  const [selectedModel, setSelectedModel] = useState("");
+  
+  useEffect(() => {
+    // Reset the selected model when the selected company changes
+    setSelectedModel("");
+  }, [selectedCompany]);
+  
+
   const handleModelChange = (event) => {
-    handleChange(event); // Invoke the handleChange function for company changes
+    setSelectedModel(event.target.value); // Update the selected model
+    handleChange(event); // Invoke the handleChange function for model changes
   };
+
+  // Define models based on the selected company
+  let models = [];
+  if (selectedCompany === "Honda") {
+    models = ["All","City", "Civic"];
+  } else if (selectedCompany === "Toyota") {
+    models = ["All","Corolla", "Camry"];
+  } else {
+    models = ["All"];
+  }
 
   return (
     <div>
       <h2 className="sidebar-title">Model</h2>
       <div>
-        <select onChange={handleModelChange} className="model-dropdown" name="model">
-          <option value="">All</option>
-          <option value="Vios">Vios</option>
-          <option value="City">City</option>
-          <option value="Civic">Civic</option>
-
+        <select value={selectedModel} onChange={handleModelChange} className="model-dropdown" name="model">
+          {models.map((model, index) => (
+            <option key={index} value={model}>
+              {model}
+            </option>
+          ))}
         </select>
       </div>
     </div>
