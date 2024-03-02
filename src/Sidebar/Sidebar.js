@@ -16,23 +16,44 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
   const handleCompanyChange = (event) => {
     const newValue = event.target.value;
     setCompanyValue(newValue); // Update the companyValue state
+    setCategoryValue("");
+    handleChange({ target: { name: "model", value: "" } });
+
     handleChange(event);
     resetPage();
   };
   
+  //category
+  const [categoryValue, setCategoryValue] = useState("");
+
+  useEffect(() => {
+    console.log("categoryValue:", categoryValue);
+  }, [categoryValue]); // Log companyValue whenever it changes
+
+  const handleCategoryChange = (event) => {
+    const newCatVallue = event.target.value;
+    setCategoryValue(newCatVallue); // Update the companyValue state
+    handleChange({ target: { name: "category", value: "" } });
+
+    handleChange(event);
+    resetPage();
+  };
+
+  // 
 
   const handleModelChange = (event) => {
     handleChange(event);
     resetPage();
   };
 
-  const handleCategoryChange = (event) => {
-    handleChange(event);
-    resetPage();
-  };
+  // const handleCategoryChange = (event) => {
+  //   handleChange(event);
+  //   resetPage();
+  // };
 
   const clearAllFilters = () => {
     setCompanyValue("");
+    setCategoryValue("");
     handleChange({ target: { name: "company", value: "" } });
     handleChange({ target: { name: "model", value: "" } });
     handleChange({ target: { name: "category", value: "" } });
@@ -51,7 +72,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
           handleChange={handleModelChange}
           selectedCompany={selectedCompany}
         />
-        <Category handleChange={handleCategoryChange}  />
+        <Category handleChange={handleCategoryChange} value={categoryValue}   />
         <button onClick={clearAllFilters}>Clear All Filters</button>
       </section>
     </>
