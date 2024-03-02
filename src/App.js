@@ -26,6 +26,7 @@ function App() {
     setSelectedCompany(event.target.value);
     
   };
+  
   // const handleModelClick = (event) => {
   //   setSelectedModel(event.target.value);
   // };
@@ -114,7 +115,7 @@ function App() {
 
       {/* <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} /> */}
       <Navigation query={query} handleInputChange={handleInputChange} />
-      <Recommended handleClearFilters={handleClearFilters} />
+      <Recommended handleClearFilters={handleClearFilters}  handleClick={handleClick} />
       
 
 <Products

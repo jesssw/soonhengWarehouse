@@ -1,30 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Category from "./Category/Category";
-import Price from "./Price/Price";
 import Model from "./Model/Model";
 import Company from "./Company/Company";
 
 import "./Sidebar.css";
 
 const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
-  const handleCategoryChange = (event) => {
-    handleChange(event);
-    resetPage(); // Call the resetPage function after applying the filter
-  };
+  const [companyValue, setCompanyValue] = useState("");
 
-  const handlePriceChange = (event) => {
+  useEffect(() => {
+    console.log("companyValue:", companyValue);
+  }, [companyValue]); // Log companyValue whenever it changes
+
+  const handleCompanyChange = (event) => {
+    const newValue = event.target.value;
+    setCompanyValue(newValue); // Update the companyValue state
     handleChange(event);
-    resetPage(); // Call the resetPage function after applying the filter
+    resetPage();
   };
+  
 
   const handleModelChange = (event) => {
     handleChange(event);
-    resetPage(); // Call the resetPage function after applying the filter
+    resetPage();
   };
 
-  const handleCompanyChange = (event) => {
+  const handleCategoryChange = (event) => {
     handleChange(event);
-    resetPage(); // Call the resetPage function after applying the filter
+    resetPage();
+  };
+
+  const clearAllFilters = () => {
+    setCompanyValue("");
+    handleChange({ target: { name: "company", value: "" } });
+    handleChange({ target: { name: "model", value: "" } });
+    handleChange({ target: { name: "category", value: "" } });
+    resetPage();
   };
 
   return (
@@ -33,10 +44,14 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
         <div className="logo-container">
           <h1>🛒</h1>
         </div>
+        
+        <Company handleChange={handleCompanyChange} value={companyValue} />
+        <Model
+          handleChange={handleModelChange}
+          selectedCompany={selectedCompany}
+        />
         <Category handleChange={handleCategoryChange} />
-        <Price handleChange={handlePriceChange} />
-        <Model handleChange={handleModelChange} selectedCompany={selectedCompany} />
-        <Company handleChange={handleCompanyChange} />
+        <button onClick={clearAllFilters}>Clear All Filters</button>
       </section>
     </>
   );
