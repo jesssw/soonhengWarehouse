@@ -118,13 +118,26 @@ function App() {
 
   return (
     <>
-      <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} />
+    {/* <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} />
+        <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended
         handleClick={handleClick}
         handleClearFilters={handleClearFilters}
       />
-      <Products result={result} />
+      <Products result={result} /> */}
+
+
+      <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} />
+      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClearFilters={handleClearFilters} />
+      <Products
+        selectedCategory={selectedCategory}
+        selectedPriceRange={selectedPriceRange}
+        selectedCompany={selectedCompany}
+        selectedModel={selectedModel}
+        result={result}
+      />
+
     </>
   );
 }
