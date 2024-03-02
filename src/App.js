@@ -12,7 +12,7 @@ import "./index.css";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedPriceRange, setSelectedPriceRange] = useState(null);
+  // const [selectedPriceRange, setSelectedPriceRange] = useState(null);
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
 
@@ -35,9 +35,9 @@ function App() {
   const [itemsPerPage] = useState(5); // number of products displayed
 
   const handleClearFilters = () => {
-    setSelectedCategory(null);
-    setSelectedPriceRange(null);
-    setSelectedModel(null);
+    // setSelectedCategory(null);
+    // setSelectedPriceRange(null);
+    // setSelectedModel(null);
     setSelectedCompany(null);
     setQuery("");
   };
@@ -45,9 +45,11 @@ function App() {
     const { name, value } = event.target;
     if (name === "category") {
       setSelectedCategory(value);
-    } else if (name === "priceRange") {
-      setSelectedPriceRange(value);
-    } else if (name === "model") {
+    } 
+    // else if (name === "priceRange") {
+    //   setSelectedPriceRange(value);
+    // }
+     else if (name === "model") {
       setSelectedModel(value);
     }
     else if (name === "company") {
@@ -59,7 +61,7 @@ function App() {
     setCurrentPage(1); // Reset the currentPage state variable to 1
   };
   
-  function filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query) {
+  function filteredData(products, selectedCategory, selectedModel, selectedCompany, query) {
     let filteredProducts = [...products]; // Make a copy of the original products array
 
     if (selectedCategory) {
@@ -68,11 +70,6 @@ function App() {
       );
     }
 
-    if (selectedPriceRange) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.priceRange === selectedPriceRange
-      );
-    }
 
     if (selectedModel) {
       filteredProducts = filteredProducts.filter(product =>
@@ -95,7 +92,7 @@ function App() {
     return filteredProducts;
   }
 
-  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query);
+  const result = filteredData(products, selectedCategory, selectedModel, selectedCompany, query);
   const totalItems = result.length;
 
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -120,7 +117,6 @@ function App() {
 
 <Products
   selectedCategory={selectedCategory}
-  selectedPriceRange={selectedPriceRange}
   selectedCompany={selectedCompany}
   selectedModel={selectedModel}
   result={currentItems}

@@ -1,23 +1,11 @@
-import React, { useState, useEffect } from "react";
+
+
+import React from "react";
 import "./Model.css";
 
-function Model({ handleChange, selectedCompany }) {
-  const [models, setModels] = useState([]);
-
-  useEffect(() => {
-    // Define models based on the selected company
-    if (selectedCompany === "Honda") {
-      setModels(["City", "Civic"]);
-    } else if (selectedCompany === "Toyota") {
-      setModels(["Vios", "Corolla"]);
-    } else {
-      // If no company is selected, show all models
-      setModels(["City", "Civic", "Vios", "Corolla"]);
-    }
-  }, [selectedCompany]);
-
+function Model({ handleChange }) {
   const handleModelChange = (event) => {
-    handleChange(event); // Invoke the handleChange function for model changes
+    handleChange(event); // Invoke the handleChange function for company changes
   };
 
   return (
@@ -26,11 +14,10 @@ function Model({ handleChange, selectedCompany }) {
       <div>
         <select onChange={handleModelChange} className="model-dropdown" name="model">
           <option value="">All</option>
-          {models.map((model) => (
-            <option key={model} value={model}>
-              {model}
-            </option>
-          ))}
+          <option value="Vios">Vios</option>
+          <option value="City">City</option>
+          <option value="Civic">Civic</option>
+
         </select>
       </div>
     </div>

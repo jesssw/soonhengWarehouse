@@ -30,13 +30,6 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
     resetPage();
   };
 
-  const clearAllFilters = () => {
-    setCompanyValue("");
-    handleChange({ target: { name: "company", value: "" } });
-    handleChange({ target: { name: "model", value: "" } });
-    handleChange({ target: { name: "category", value: "" } });
-    resetPage();
-  };
 
   return (
     <>
@@ -51,7 +44,6 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
           selectedCompany={selectedCompany}
         />
         <Category handleChange={handleCategoryChange} />
-        <button onClick={clearAllFilters}>Clear All Filters</button>
       </section>
     </>
   );
