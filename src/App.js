@@ -24,13 +24,14 @@ function App() {
   // ------------ Button Filtering -----------
   const handleClick = (event) => {
     setSelectedCompany(event.target.value);
+    
   };
   // const handleModelClick = (event) => {
   //   setSelectedModel(event.target.value);
   // };
   
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(20); // number of products displayed
+  const [itemsPerPage] = useState(5); // number of products displayed
 
   const handleClearFilters = () => {
     setSelectedCategory(null);
@@ -51,6 +52,10 @@ function App() {
     else if (name === "company") {
     setSelectedCompany(value);
   }
+  };
+
+  const resetPage = () => {
+    setCurrentPage(1); // Reset the currentPage state variable to 1
   };
   
   function filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query) {
@@ -103,25 +108,14 @@ function App() {
 
   return (
     <>
-    {/* <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} />
-        <Navigation query={query} handleInputChange={handleInputChange} />
-      <Recommended
-        handleClick={handleClick}
-        handleClearFilters={handleClearFilters}
-      />
-      <Products result={result} /> */}
 
 
-      <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} />
+<Sidebar handleChange={handleChange} selectedCompany={selectedCompany} resetPage={resetPage} />
+
+      {/* <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} /> */}
       <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended handleClearFilters={handleClearFilters} />
-      {/* <Products
-        selectedCategory={selectedCategory}
-        selectedPriceRange={selectedPriceRange}
-        selectedCompany={selectedCompany}
-        selectedModel={selectedModel}
-        result={result}
-      /> */}
+      
 
 <Products
   selectedCategory={selectedCategory}
@@ -131,7 +125,6 @@ function App() {
   result={currentItems}
 />
 
-{/* <Pagination currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={result.length} paginate={paginate} /> */}
 <Pagination currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={totalItems} paginate={paginate} />
 
     </>
