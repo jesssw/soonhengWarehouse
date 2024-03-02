@@ -22,10 +22,17 @@ function App() {
     setQuery(event.target.value);
   };
   // ------------ Button Filtering -----------
-  const handleClick = (event) => {
-    setSelectedCompany(event.target.value);
+  // const handleClick = (event) => {
+  //   setSelectedCompany(event.target.value);
     
+  // };
+  const handleClick = (value) => {
+
+    setSelectedCompany(value);
   };
+  
+
+  
   
   // const handleModelClick = (event) => {
   //   setSelectedModel(event.target.value);
@@ -37,8 +44,8 @@ function App() {
   const handleClearFilters = () => {
     // setSelectedCategory(null);
     // setSelectedPriceRange(null);
-    // setSelectedModel(null);
-    setSelectedCompany(null);
+    setSelectedModel(null); //check why not working
+    setSelectedCompany(null); //refer to this
     setQuery("");
   };
   const handleChange = (event) => {

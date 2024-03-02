@@ -1,0 +1,17 @@
+.button {
+    /* Your default button styles */
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .button.active {
+    /* Your active button styles */
+    background-color: #007bff;
+    color: #fff;
+  }
+  
