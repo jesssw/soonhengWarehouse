@@ -6,12 +6,13 @@ import products from "./db/data";
 import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
 import Card from "./components/Card";
+import Pagination from './Pagination/Pagination';
+
 import "./index.css";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedPriceRange, setSelectedPriceRange] = useState(null);
-  const [selectedColor, setSelectedColor] = useState(null);
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
 
@@ -28,8 +29,9 @@ function App() {
   //   setSelectedModel(event.target.value);
   // };
   
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(20); // number of products displayed
 
-  
   const handleClearFilters = () => {
     setSelectedCategory(null);
     setSelectedPriceRange(null);
@@ -53,68 +55,51 @@ function App() {
   
   function filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query) {
     let filteredProducts = [...products]; // Make a copy of the original products array
-  
+
     if (selectedCategory) {
       filteredProducts = filteredProducts.filter(product =>
         product.category === selectedCategory
       );
     }
-  
+
     if (selectedPriceRange) {
       filteredProducts = filteredProducts.filter(product =>
         product.priceRange === selectedPriceRange
       );
     }
-  
+
     if (selectedModel) {
       filteredProducts = filteredProducts.filter(product =>
         product.model === selectedModel
       );
     }
-  
+
     if (selectedCompany) {
       filteredProducts = filteredProducts.filter(product =>
         product.company === selectedCompany
       );
     }
-  
+
     if (query) {
       filteredProducts = filteredProducts.filter(product =>
         product.title.toLowerCase().includes(query.toLowerCase())
       );
     }
-  
-    console.log("Filtered Products:", filteredProducts); // Debugging: Log filtered products
-  
-    return filteredProducts.map(({ img, title, company, model, year, category, stock_brand, location, prevPrice, newPrice, update_date }) => {
-      // Split the date string at "T" and get the first part (date part)
-      const formattedDate = update_date.split("T")[0];
-    
-      return (
-        <Card
-          key={Math.random()}
-          img={img}
-          title={title}
-          company={company}
-          model={model}
-          year={year}
-          category={category}
-          stock_brand={stock_brand}
-          location={location}
-          prevPrice={prevPrice}
-          update_date={formattedDate} // Pass the formatted date to the Card component
-          newPrice={newPrice}
 
-        />
-      );
-    });
-    
+    return filteredProducts;
   }
-  
 
-  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedModel,selectedCompany, query);
+  const result = filteredData(products, selectedCategory, selectedPriceRange, selectedModel, selectedCompany, query);
+  const totalItems = result.length;
 
-  console.log("Result:", result); // Debugging: Log result before rendering
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = result.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = pageNumber => setCurrentPage(pageNumber);
+
+  // console.log("Result:", result); // Debugging: Log result before rendering
+  // console.log("Total items:", result.length);
 
   return (
     <>
@@ -130,13 +115,24 @@ function App() {
       <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} />
       <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended handleClearFilters={handleClearFilters} />
-      <Products
+      {/* <Products
         selectedCategory={selectedCategory}
         selectedPriceRange={selectedPriceRange}
         selectedCompany={selectedCompany}
         selectedModel={selectedModel}
         result={result}
-      />
+      /> */}
+
+<Products
+  selectedCategory={selectedCategory}
+  selectedPriceRange={selectedPriceRange}
+  selectedCompany={selectedCompany}
+  selectedModel={selectedModel}
+  result={currentItems}
+/>
+
+{/* <Pagination currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={result.length} paginate={paginate} /> */}
+<Pagination currentPage={currentPage} itemsPerPage={itemsPerPage} totalItems={totalItems} paginate={paginate} />
 
     </>
   );
