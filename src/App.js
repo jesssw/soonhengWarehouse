@@ -21,11 +21,7 @@ function App() {
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
-  // ------------ Button Filtering -----------
-  // const handleClick = (event) => {
-  //   setSelectedCompany(event.target.value);
-    
-  // };
+
   const handleClick = (value) => {
 
     setSelectedCompany(value);
@@ -33,13 +29,8 @@ function App() {
   
 
   
-  
-  // const handleModelClick = (event) => {
-  //   setSelectedModel(event.target.value);
-  // };
-  
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(5); // number of products displayed
+  const [itemsPerPage] = useState(20); // number of products displayed
 
   const handleClearFilters = () => {
     // setSelectedCategory(null);
@@ -92,7 +83,10 @@ function App() {
 
     if (query) {
       filteredProducts = filteredProducts.filter(product =>
-        product.title.toLowerCase().includes(query.toLowerCase())
+        product.title.toLowerCase().includes(query.toLowerCase())//search by title
+       || String(product.barcode_id).toLowerCase().includes(query.toLowerCase()) //search by barcode
+
+
       );
     }
 
@@ -119,7 +113,7 @@ function App() {
 
       {/* <Sidebar handleChange={handleChange} selectedCompany={selectedCompany} /> */}
       <Navigation query={query} handleInputChange={handleInputChange} />
-      <Recommended handleClearFilters={handleClearFilters}  handleClick={handleClick} />
+      {/* <Recommended handleClearFilters={handleClearFilters}  handleClick={handleClick} /> */}
       
 
 <Products

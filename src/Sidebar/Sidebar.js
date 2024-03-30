@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Category from "./Category/Category";
 import Model from "./Model/Model";
 import Company from "./Company/Company";
+import data from "../db/data";
 
 
 import "./Sidebar.css";
@@ -10,7 +11,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
   const [companyValue, setCompanyValue] = useState("");
 
   useEffect(() => {
-    console.log("companyValue:", companyValue);
+    // console.log("companyValue:", companyValue);
   }, [companyValue]); // Log companyValue whenever it changes
 
   const handleCompanyChange = (event) => {
@@ -27,7 +28,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
   const [categoryValue, setCategoryValue] = useState("");
 
   useEffect(() => {
-    console.log("categoryValue:", categoryValue);
+    // console.log("categoryValue:", categoryValue);
   }, [categoryValue]); // Log companyValue whenever it changes
 
   const handleCategoryChange = (event) => {
@@ -71,6 +72,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
         <Model
           handleChange={handleModelChange}
           selectedCompany={selectedCompany}
+          data={data} 
         />
         <Category handleChange={handleCategoryChange} value={categoryValue}   />
         <button onClick={clearAllFilters}>Clear All Filters</button>

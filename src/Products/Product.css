@@ -11,6 +11,7 @@
   border: 2px solid #ededed;
   padding: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .card-img {
@@ -19,25 +20,53 @@
 }
 
 .card-title {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .card-reviews {
   margin-bottom: 1rem;
   display: flex;
 }
-
-.rating-star {
-  color: #d5ab55;
+.barcode-id{
+  font-style: italic;
 }
 
-.total-reviews {
-  font-size: 0.9rem;
-  margin-left: 10px;
-}
+
 
 .card-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.stock-quantity{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to right, rgb(85 164 137), rgb(57, 185, 70));
+  font-size: 12px;
+  text-align: right;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px 0 0 10px;
+}
+.low-stock {
+  background: linear-gradient(to right, rgb(190 105 105), rgb(122 28 28));
+  /* Add any other styling you want for low stock */
+}
+.quantity-no{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.stock-location{
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  color: #d5ab55;
+  font-weight: 700;
+  text-align: center;
 }

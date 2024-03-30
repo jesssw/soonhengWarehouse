@@ -87,7 +87,7 @@ function App() {
   
     console.log("Filtered Products:", filteredProducts); // Debugging: Log filtered products
   
-    return filteredProducts.map(({ img, title, company, model, year, category, stock_brand, location, prevPrice, newPrice, update_date }) => {
+    return filteredProducts.map(({ img, title, company, model, year, category, stock_brand, location, prevPrice, newPrice, update_date,stock_availability }) => {
       // Split the date string at "T" and get the first part (date part)
       const formattedDate = update_date.split("T")[0];
     
@@ -105,6 +105,7 @@ function App() {
           prevPrice={prevPrice}
           update_date={formattedDate} // Pass the formatted date to the Card component
           newPrice={newPrice}
+          stock_availability={stock_availability}
 
         />
       );
