@@ -64,9 +64,9 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
   return (
     <>
       <section className="sidebar">
-        <div className="logo-container">
+        {/* <div className="logo-container">
           <h1>🛒</h1>
-        </div>
+        </div> */}
         
         <Company handleChange={handleCompanyChange} value={companyValue} />
         <Model
@@ -75,7 +75,7 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
           data={data} 
         />
         <Category handleChange={handleCategoryChange} value={categoryValue}   />
-        <button onClick={clearAllFilters}>Clear All Filters</button>
+        <button className="clearfilter" onClick={clearAllFilters}>Clear</button>
       </section>
     </>
   );

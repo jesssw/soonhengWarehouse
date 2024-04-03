@@ -12,7 +12,7 @@ const data = [
       "company": "Honda",
       "model": "City",
       "stock_brand": "EXN",
-      "category": "sneakers",
+      "category": "Oil Filters",
       "update_date": "2024-04-23T18:25:43.511Z",
       "stock_availability": 1
     },

@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+body{
+  width:1000px;
+  margin:0 auto;
+}
 a {
   text-decoration: none;
   color: rgb(97, 97, 97);
@@ -24,3 +27,27 @@ li {
   color: #323232;
   cursor: pointer;
 }
+
+
+@media (max-width: 1200px) {
+  body{
+    width: 90%;
+
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  body{
+    width: 90%;
+
+  }
+  .card-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:480px)  { 
+  .card-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+ }

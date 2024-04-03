@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Pagination.css";
 
 const Pagination = ({ currentPage, itemsPerPage, totalItems, paginate }) => {
   // console.log('Total items:', totalItems); // Log totalItems here
@@ -10,7 +11,7 @@ const Pagination = ({ currentPage, itemsPerPage, totalItems, paginate }) => {
   }
 
   return (
-    <nav>
+    <nav className='pagination-nav'>
       <ul className='pagination'>
         {pageNumbers.map(number => (
           <li key={number} className={`page-item ${currentPage === number ? 'active' : ''}`}>
