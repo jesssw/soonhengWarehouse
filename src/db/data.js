@@ -33,7 +33,7 @@ const data = [
   },
   {
     "stock_id": 3,
-    "barcode_id": 3,
+    "barcode_id": "77871182",
     "img": "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
     "title": "Nike Waffle One Sneaker",
     "year": 2018,
