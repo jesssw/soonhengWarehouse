@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/soonhengWarehouse/static/css/main.7ed7f6ec.css",
+    "main.css": "/soonhengWarehouse/static/css/main.fa7750aa.css",
     "main.js": "/soonhengWarehouse/static/js/main.742d5b77.js",
     "index.html": "/soonhengWarehouse/index.html",
-    "main.7ed7f6ec.css.map": "/soonhengWarehouse/static/css/main.7ed7f6ec.css.map",
+    "main.fa7750aa.css.map": "/soonhengWarehouse/static/css/main.fa7750aa.css.map",
     "main.742d5b77.js.map": "/soonhengWarehouse/static/js/main.742d5b77.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ed7f6ec.css",
+    "static/css/main.fa7750aa.css",
     "static/js/main.742d5b77.js"
   ]
 }
