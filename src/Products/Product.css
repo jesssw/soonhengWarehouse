@@ -36,6 +36,7 @@ padding-bottom: 20px;
 .barcode-id{
   font-style: italic;
   font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .barcodenum{
