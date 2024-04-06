@@ -58,7 +58,6 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
     handleChange({ target: { name: "company", value: "" } });
     handleChange({ target: { name: "model", value: "" } });
     handleChange({ target: { name: "category", value: "" } });
-    setInputText("");
     resetPage();
   };
 

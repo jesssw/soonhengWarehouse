@@ -6,7 +6,7 @@ const Card = ({ barcode_id,img, title, company, model,year,stock_brand,category,
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
           <h3 className="card-title">{title}</h3>
-          <div className="barcode-id">Barcode: {barcode_id} </div>
+          <div className="barcode-id">Barcode: <span className="barcodenum"> {barcode_id}</span> </div>
           <div class="car-details"> 
             <div className="bolder"> {company} - {model}</div>
              <div className="">Manufacturing year: <span className="bolder">{year}</span> </div>

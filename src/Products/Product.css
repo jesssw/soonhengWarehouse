@@ -12,9 +12,11 @@ padding-bottom: 20px;
 
 .card {
   border: 2px solid #ededed;
-  padding: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
   cursor: pointer;
   position: relative;
+  border-radius: 8px;
 }
 
 .card-img {
@@ -33,9 +35,13 @@ padding-bottom: 20px;
 }
 .barcode-id{
   font-style: italic;
+  font-size: 14px;
 }
 
-
+.barcodenum{
+  font-size: 16px;
+  font-weight: 700;
+}
 
 .card-price {
   display: flex;
@@ -52,7 +58,7 @@ padding-bottom: 20px;
   text-align: right;
   color: white;
   padding: 5px 10px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 0 8px 0 8px;
 }
 .low-stock {
   background: linear-gradient(to right, rgb(190 105 105), rgb(122 28 28));
