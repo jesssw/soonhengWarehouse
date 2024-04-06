@@ -30,7 +30,7 @@ function App() {
 
   
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(5); // number of products displayed
+  const [itemsPerPage] = useState(20); // number of products displayed
 
   const handleClearFilters = () => {
     // setSelectedCategory(null);
