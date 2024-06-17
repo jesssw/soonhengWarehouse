@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import Navigation from "./Navigation/Nav";
 import Products from "./Products/Products";
 import products from "./db/data";
@@ -15,7 +14,7 @@ function App() {
   const [isLowStockFilter, setIsLowStockFilter] = useState(false);
   const [showLowStockButton, setShowLowStockButton] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(20); // number of products displayed
+  const [itemsPerPage] = useState(20);
 
   const handleInputChange = (event) => {
     setQuery(event.target.value);
@@ -30,8 +29,8 @@ function App() {
     setSelectedCompany(null);
     setSelectedModel(null);
     setQuery("");
-    setIsLowStockFilter(false); // Clear the low stock filter
-    setShowLowStockButton(false); // Hide the low stock "x" button
+    setIsLowStockFilter(false);
+    setShowLowStockButton(false);
     resetPage();
   };
 
@@ -43,44 +42,41 @@ function App() {
       setSelectedModel(value);
     } else if (name === "company") {
       setSelectedCompany(value);
+      setSelectedModel(null);
+      setSelectedCategory(null);
     }
+    resetPage();
   };
 
   const resetPage = () => {
-    setCurrentPage(1); // Reset the currentPage state variable to 1
+    setCurrentPage(1);
   };
 
   const filterLowStock = () => {
     setIsLowStockFilter(true);
-    setShowLowStockButton(true); // Show the low stock "x" button
+    setShowLowStockButton(true);
     resetPage();
   };
 
   const clearLowStockFilter = () => {
     setIsLowStockFilter(false);
-    setShowLowStockButton(false); // Hide the low stock "x" button
+    setShowLowStockButton(false);
     resetPage();
   };
 
   const filteredData = (products, selectedCategory, selectedModel, selectedCompany, query, isLowStockFilter) => {
-    let filteredProducts = [...products]; // Make a copy of the original products array
+    let filteredProducts = [...products];
 
-    if (selectedCategory) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.category === selectedCategory
-      );
+    if (selectedCompany) {
+      filteredProducts = filteredProducts.filter(product => product.company === selectedCompany);
     }
 
     if (selectedModel) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.model === selectedModel
-      );
+      filteredProducts = filteredProducts.filter(product => product.model === selectedModel);
     }
 
-    if (selectedCompany) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.company === selectedCompany
-      );
+    if (selectedCategory) {
+      filteredProducts = filteredProducts.filter(product => product.category === selectedCategory);
     }
 
     if (query) {
@@ -91,9 +87,7 @@ function App() {
     }
 
     if (isLowStockFilter) {
-      filteredProducts = filteredProducts.filter(product =>
-        product.stock_quantity <= 3
-      );
+      filteredProducts = filteredProducts.filter(product => product.stock_quantity <= 3);
     }
 
     return filteredProducts;
@@ -112,14 +106,30 @@ function App() {
     <>
       <div className="filter-header">
         <Navigation query={query} handleInputChange={handleInputChange} />
-        <Sidebar 
+        <Sidebar
           handleChange={handleChange}
           selectedCompany={selectedCompany}
+          selectedModel={selectedModel}
           resetPage={resetPage}
-          handleClearFilters={handleClearFilters} // Pass handleClearFilters to Sidebar
+          handleClearFilters={handleClearFilters}
+          data={products}
         />
-        <button onClick={filterLowStock}>Show Low Stock</button>
-        {showLowStockButton && <button onClick={clearLowStockFilter}>x</button>}
+        <div className="show-low-stock-row">
+        <button
+          onClick={filterLowStock}
+          className={isLowStockFilter ? "low-stock-button active" : "low-stock-button"}
+        >
+          Show Low Stock
+        </button>
+        {showLowStockButton && (
+          <button onClick={clearLowStockFilter} className="clear-low-stock-button">
+            x
+          </button>
+        )}
+        {/* <button  onClick={filterLowStock}>Show Low Stock</button>
+        {showLowStockButton && <button onClick={clearLowStockFilter} className="clear-low-stock-filter">x</button>} */}
+        </div>
+       
       </div>
 
       <div className="content-wrapper">

@@ -27,8 +27,68 @@ li {
   color: #323232;
   cursor: pointer;
 }
+.show-low-stock-row{
+  display: flex;
+  justify-content: center;
+}
+
+.low-stock-button {
+  border: 1px solid #716eef;
+  color: #716eef;
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+.low-stock-button:hover {
+  box-shadow: 0 0.25em 0.25em -0.1em #d96029;
+  /* transform: translateY(-0.25em); */
+  border:1px solid #d96029;
+  color: #d96029;
+}
 
 
+
+.low-stock-button.active {
+  background-color: #d96029;
+  color: #fff;
+  border: 1px solid #d96029;
+  border-radius: 10px 0 0 10px;
+}
+
+.clear-low-stock-button {
+  background-color: #d96029;
+  border: none;
+  padding:  10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.clear-low-stock-button:hover{
+  color: white;
+
+}
+
+.clearfilter{
+  background-color: white;
+  border: 1px solid #716eef;
+  color: #716eef;
+ 
+}
+.clearfilter:hover{
+  color: #fff;
+  transition-delay: 0.2s;
+  animation: ani500 0.7s forwards;
+  background: radial-gradient(circle, #716eef 0.2em, transparent 0.3em) 6em
+      6em/1em 1em,
+    radial-gradient(circle, #716eef 0.2em, transparent 0.3em) 0 0/1em 1em;
+}
+@keyframes ani500 {
+  100% {
+    background-size: 2.375em 2.375em, 0.1em 0.1em;
+  }
+}
 @media (max-width: 1200px) {
   body{
     width: 90%;

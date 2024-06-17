@@ -1,26 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "./Model.css";
 
-function Model({ handleChange, selectedCompany, data }) {
-  const [selectedModel, setSelectedModel] = useState("");
+function Model({ handleChange, selectedCompany, selectedModel, data }) {
+  const [selectedModelValue, setSelectedModelValue] = useState("");
 
   useEffect(() => {
     // Reset the selected model when the selected company changes
-    setSelectedModel("");
+    setSelectedModelValue("");
   }, [selectedCompany]);
 
   useEffect(() => {
     console.log("Selected company:", selectedCompany);
     console.log("Data:", data);
-  }, [selectedCompany, data]); // Log selectedCompany and data whenever they change
+  }, [selectedCompany, data]);
 
   const handleModelChange = (event) => {
-    setSelectedModel(event.target.value); // Update the selected model
-    handleChange(event); // Invoke the handleChange function for model changes
+    setSelectedModelValue(event.target.value);
+    handleChange(event);
   };
 
   // Extract unique models based on the selected company from the provided data
-  let models = ["All"]; // Initialize with "All" option
+  let models = ["All"];
   if (data && Array.isArray(data)) {
     const uniqueModels = [...new Set(data.filter(item => item.company === selectedCompany).map(item => item.model))];
     models = models.concat(uniqueModels);
@@ -30,7 +30,7 @@ function Model({ handleChange, selectedCompany, data }) {
     <div>
       <h2 className="sidebar-title">Model</h2>
       <div>
-        <select value={selectedModel} onChange={handleModelChange} className="model-dropdown" name="model">
+        <select value={selectedModelValue} onChange={handleModelChange} className="model-dropdown" name="model">
           {models.map((model, index) => (
             <option key={index} value={model}>
               {model}

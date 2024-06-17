@@ -4,53 +4,44 @@ import Model from "./Model/Model";
 import Company from "./Company/Company";
 import data from "../db/data";
 
-
 import "./Sidebar.css";
 
-const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
+const Sidebar = ({ handleChange, selectedCompany, selectedModel, resetPage, handleClearFilters, data }) => {
   const [companyValue, setCompanyValue] = useState("");
 
   useEffect(() => {
     // console.log("companyValue:", companyValue);
-  }, [companyValue]); // Log companyValue whenever it changes
+  }, [companyValue]);
 
   const handleCompanyChange = (event) => {
     const newValue = event.target.value;
-    setCompanyValue(newValue); // Update the companyValue state
+    setCompanyValue(newValue);
     setCategoryValue("");
     handleChange({ target: { name: "model", value: "" } });
 
     handleChange(event);
     resetPage();
   };
-  
-  //category
+
   const [categoryValue, setCategoryValue] = useState("");
 
   useEffect(() => {
     // console.log("categoryValue:", categoryValue);
-  }, [categoryValue]); // Log companyValue whenever it changes
+  }, [categoryValue]);
 
   const handleCategoryChange = (event) => {
-    const newCatVallue = event.target.value;
-    setCategoryValue(newCatVallue); // Update the companyValue state
+    const newCatValue = event.target.value;
+    setCategoryValue(newCatValue);
     handleChange({ target: { name: "category", value: "" } });
 
     handleChange(event);
     resetPage();
   };
 
-  // 
-
   const handleModelChange = (event) => {
     handleChange(event);
     resetPage();
   };
-
-  // const handleCategoryChange = (event) => {
-  //   handleChange(event);
-  //   resetPage();
-  // };
 
   const clearAllFilters = () => {
     setCompanyValue("");
@@ -58,23 +49,27 @@ const Sidebar = ({ handleChange, selectedCompany, resetPage }) => {
     handleChange({ target: { name: "company", value: "" } });
     handleChange({ target: { name: "model", value: "" } });
     handleChange({ target: { name: "category", value: "" } });
+    handleClearFilters();
     resetPage();
   };
 
   return (
     <>
       <section className="sidebar">
-        {/* <div className="logo-container">
-          <h1>🛒</h1>
-        </div> */}
-        
         <Company handleChange={handleCompanyChange} value={companyValue} />
         <Model
           handleChange={handleModelChange}
           selectedCompany={selectedCompany}
-          data={data} 
+          selectedModel={selectedModel}
+          data={data}
         />
-        <Category handleChange={handleCategoryChange} value={categoryValue}   />
+        <Category
+          handleChange={handleCategoryChange}
+          value={categoryValue}
+          selectedCompany={selectedCompany}
+          selectedModel={selectedModel}
+          data={data}
+        />
         <button className="clearfilter" onClick={clearAllFilters}>Clear</button>
       </section>
     </>
