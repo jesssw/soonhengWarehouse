@@ -1,54 +1,51 @@
 const data = [
   {
     "stock_id": 1,
-    "barcode_id": 1,
-    "img": "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
+    "barcode_id": "28910-000-RIK",
+    "img": "https://i.ebayimg.com/images/g/rqwAAOSwvXdk6yUo/s-l1200.webp",
     "title": "Nike Air Monarch IV",
-    "year": 2018,
-    "location": "LA-A-1",
-    "stock_quantity": 3,
-    "newPrice": 200,
-    "company": "Honda",
-    "model": "City",
-    "stock_brand": "EXN",
-    "category": "sneakers",
-    "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
-  },
-  {
-    "stock_id": 2,
-    "barcode_id": 2,
-    "img": "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    "title": "Nike Air Vapormax Plus",
     "year": 2018,
     "location": "LA-A-1",
     "stock_quantity": 10,
     "newPrice": 200,
-    "company": "Honda",
-    "model": "City",
-    "stock_brand": "EXN",
-    "category": "sneakers",
+    "company": "Toyota",
+    "model": "B New",
+    "stock_brand": "Highlight",
+    "category": "Ring",
+    "update_date": "2024-04-06T18:25:43.511Z",
+    "stock_availability": 1
+  },
+  {
+    "stock_id": 2,
+    "barcode_id": "28475-000-RIK",
+    "img": "https://i.ebayimg.com/images/g/rqwAAOSwvXdk6yUo/s-l1200.webp",
+    "title": "Piston Ring 14B",
+    "year": 1999,
+    "location": "LA-A-1",
+    "stock_quantity": 10,
+    "newPrice": 200,
+    "company": "Toyota",
+    "model": "DV99",
+    "stock_brand": "Hightlight",
+    "category": "Ring",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "7Days"
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
-    "barcode_id": 3,
+    "barcode_id": "77871182",
     "img": "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
     "title": "Nike Waffle One Sneaker",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": 200,
     "company": "Toyota",
     "model": "Vios",
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -57,15 +54,14 @@ const data = [
     "title": "Nike Running Shoe",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 1,
+    "stock_quantity": 10,
     "newPrice": 200,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -81,8 +77,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -98,8 +93,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -115,8 +109,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -125,15 +118,14 @@ const data = [
     "title": "Nike Zoom Freak",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 4,
+    "stock_quantity": 10,
     "newPrice": 200,
     "company": "Nike",
     "model": "Accord",
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -149,8 +141,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -166,8 +157,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -183,8 +173,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -200,8 +189,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -210,15 +198,14 @@ const data = [
     "title": "Roma Basic Sneaker",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 3,
+    "stock_quantity": 10,
     "newPrice": 150,
     "company": "Puma",
     "model": "Vios",
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -227,15 +214,14 @@ const data = [
     "title": "Pacer Future Doubleknit",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 3,
+    "stock_quantity": 10,
     "newPrice": 150,
     "company": "Puma",
     "model": "Vios",
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -244,15 +230,14 @@ const data = [
     "title": "Fusion Evo Golf Shoe",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 3,
+    "stock_quantity": 10,
     "newPrice": 100,
     "company": "Puma",
     "model": "Vios",
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": "No"
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -261,15 +246,14 @@ const data = [
     "title": "Rainbow Chex Skate",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": 100,
     "company": "Vans",
     "model": "Vios",
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -278,15 +262,14 @@ const data = [
     "title": "Low-Top Trainers",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": 100,
     "company": "Vans",
     "model": "Vios",
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -302,8 +285,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -319,8 +301,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -336,8 +317,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -353,8 +333,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -370,8 +349,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -387,8 +365,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -404,8 +381,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -421,8 +397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -438,8 +413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -455,8 +429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -472,8 +445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -489,8 +461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -506,8 +477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -523,8 +493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -540,8 +509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -557,8 +525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -574,8 +541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -591,8 +557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -608,8 +573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -625,8 +589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -642,8 +605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -659,8 +621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -669,15 +630,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -566.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -686,15 +646,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -616.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -703,15 +662,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -666.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -720,15 +678,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -716.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -737,15 +694,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -766.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -754,15 +710,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -816.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -771,15 +726,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -866.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -788,15 +742,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -916.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -805,15 +758,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -966.6666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -822,15 +774,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1016.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -839,15 +790,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1066.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -856,15 +806,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1116.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -873,15 +822,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1166.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -890,15 +838,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1216.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -907,15 +854,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1266.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -924,15 +870,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1316.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -941,15 +886,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1366.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -958,15 +902,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1416.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -975,15 +918,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1466.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -992,15 +934,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1516.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -1009,15 +950,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1566.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -1026,15 +966,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1616.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -1043,15 +982,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1666.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -1060,15 +998,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1716.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -1077,15 +1014,14 @@ const data = [
     "title": "Amore Fashion Stilettos",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1766.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -1094,15 +1030,14 @@ const data = [
     "title": "Bridal Sandals Glitter",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1816.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -1111,15 +1046,14 @@ const data = [
     "title": "Wedding Prom Bridal",
     "year": 2018,
     "location": "LA-A-1",
-    "stock_quantity": 2,
+    "stock_quantity": 10,
     "newPrice": -1866.666667,
     "company": "Adidas",
     "model": "Vios",
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -1135,8 +1069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -1152,8 +1085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -1169,8 +1101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -1186,8 +1117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -1203,8 +1133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -1220,8 +1149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -1237,8 +1165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -1254,8 +1181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -1271,8 +1197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -1288,8 +1213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -1305,8 +1229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -1322,8 +1245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -1339,8 +1261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -1356,8 +1277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -1373,8 +1293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -1390,8 +1309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -1407,8 +1325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -1424,8 +1341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -1441,8 +1357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -1458,8 +1373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -1475,8 +1389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -1492,8 +1405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -1509,8 +1421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -1526,8 +1437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -1543,8 +1453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -1560,8 +1469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -1577,8 +1485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -1594,8 +1501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -1611,8 +1517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -1628,8 +1533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -1645,8 +1549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -1662,8 +1565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -1679,8 +1581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -1696,8 +1597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -1713,8 +1613,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -1730,8 +1629,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -1747,8 +1645,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -1764,8 +1661,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -1781,8 +1677,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -1798,8 +1693,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -1815,8 +1709,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -1832,8 +1725,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -1849,8 +1741,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -1866,8 +1757,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -1883,8 +1773,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -1900,8 +1789,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -1917,8 +1805,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -1934,8 +1821,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -1951,8 +1837,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -1968,8 +1853,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -1985,8 +1869,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -2002,8 +1885,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -2019,8 +1901,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -2036,8 +1917,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -2053,8 +1933,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -2070,8 +1949,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -2087,8 +1965,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -2104,8 +1981,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -2121,8 +1997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -2138,8 +2013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -2155,8 +2029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -2172,8 +2045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -2189,8 +2061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -2206,8 +2077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -2223,8 +2093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -2240,8 +2109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -2257,8 +2125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -2274,8 +2141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -2291,8 +2157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -2308,8 +2173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -2325,8 +2189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -2342,8 +2205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -2359,8 +2221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -2376,8 +2237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -2393,8 +2253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -2410,8 +2269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -2427,8 +2285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -2444,8 +2301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -2461,8 +2317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -2478,8 +2333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -2495,8 +2349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -2512,8 +2365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -2529,8 +2381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -2546,8 +2397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -2563,8 +2413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -2580,8 +2429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -2597,8 +2445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -2614,8 +2461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -2631,8 +2477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -2648,8 +2493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -2665,8 +2509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -2682,8 +2525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -2699,8 +2541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -2716,8 +2557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -2733,8 +2573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -2750,8 +2589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -2767,8 +2605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -2784,8 +2621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -2801,8 +2637,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -2818,8 +2653,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -2835,8 +2669,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -2852,8 +2685,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -2869,8 +2701,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -2886,8 +2717,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -2903,8 +2733,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -2920,8 +2749,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -2937,8 +2765,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -2954,8 +2781,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -2971,8 +2797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -2988,8 +2813,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -3005,8 +2829,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -3022,8 +2845,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -3039,8 +2861,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -3056,8 +2877,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -3073,8 +2893,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -3090,8 +2909,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -3107,8 +2925,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -3124,8 +2941,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -3141,8 +2957,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -3158,8 +2973,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -3175,8 +2989,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -3192,8 +3005,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -3209,8 +3021,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -3226,8 +3037,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -3243,8 +3053,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -3260,8 +3069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -3277,8 +3085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -3294,8 +3101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -3311,8 +3117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -3328,8 +3133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -3345,8 +3149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -3362,8 +3165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -3379,8 +3181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -3396,8 +3197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -3413,8 +3213,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -3430,8 +3229,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -3447,8 +3245,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -3464,8 +3261,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -3481,8 +3277,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -3498,8 +3293,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -3515,8 +3309,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -3532,8 +3325,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -3549,8 +3341,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -3566,8 +3357,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -3583,8 +3373,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -3600,8 +3389,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -3617,8 +3405,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -3634,8 +3421,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -3651,8 +3437,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -3668,8 +3453,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -3685,8 +3469,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -3702,8 +3485,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -3719,8 +3501,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -3736,8 +3517,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -3753,8 +3533,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -3770,8 +3549,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -3787,8 +3565,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -3804,8 +3581,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -3821,8 +3597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -3838,8 +3613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -3855,8 +3629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -3872,8 +3645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -3889,8 +3661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -3906,8 +3677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -3923,8 +3693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -3940,8 +3709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -3957,8 +3725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -3974,8 +3741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -3991,8 +3757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -4008,8 +3773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -4025,8 +3789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -4042,8 +3805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -4059,8 +3821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -4076,8 +3837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -4093,8 +3853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -4110,8 +3869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -4127,8 +3885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -4144,8 +3901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -4161,8 +3917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -4178,8 +3933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -4195,8 +3949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -4212,8 +3965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -4229,8 +3981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -4246,8 +3997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -4263,8 +4013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -4280,8 +4029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -4297,8 +4045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -4314,8 +4061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -4331,8 +4077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -4348,8 +4093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -4365,8 +4109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -4382,8 +4125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -4399,8 +4141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -4416,8 +4157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -4433,8 +4173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -4450,8 +4189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -4467,8 +4205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -4484,8 +4221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -4501,8 +4237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -4518,8 +4253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -4535,8 +4269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -4552,8 +4285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -4569,8 +4301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -4586,8 +4317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -4603,8 +4333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -4620,8 +4349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -4637,8 +4365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -4654,8 +4381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -4671,8 +4397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -4688,8 +4413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -4705,8 +4429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -4722,8 +4445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -4739,8 +4461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -4756,8 +4477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -4773,8 +4493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -4790,8 +4509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -4807,8 +4525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -4824,8 +4541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -4841,8 +4557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -4858,8 +4573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -4875,8 +4589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -4892,8 +4605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -4909,8 +4621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -4926,8 +4637,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -4943,8 +4653,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -4960,8 +4669,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -4977,8 +4685,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -4994,8 +4701,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -5011,8 +4717,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -5028,8 +4733,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -5045,8 +4749,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -5062,8 +4765,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -5079,8 +4781,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -5096,8 +4797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -5113,8 +4813,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -5130,8 +4829,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -5147,8 +4845,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -5164,8 +4861,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -5181,8 +4877,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -5198,8 +4893,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -5215,8 +4909,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -5232,8 +4925,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -5249,8 +4941,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -5266,8 +4957,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -5283,8 +4973,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -5300,8 +4989,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -5317,8 +5005,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -5334,8 +5021,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -5351,8 +5037,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -5368,8 +5053,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -5385,8 +5069,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -5402,8 +5085,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -5419,8 +5101,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -5436,8 +5117,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -5453,8 +5133,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -5470,8 +5149,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -5487,8 +5165,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -5504,8 +5181,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -5521,8 +5197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -5538,8 +5213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -5555,8 +5229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -5572,8 +5245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -5589,8 +5261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -5606,8 +5277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -5623,8 +5293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -5640,8 +5309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -5657,8 +5325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -5674,8 +5341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -5691,8 +5357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -5708,8 +5373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -5725,8 +5389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -5742,8 +5405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -5759,8 +5421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -5776,8 +5437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -5793,8 +5453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -5810,8 +5469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -5827,8 +5485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -5844,8 +5501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -5861,8 +5517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -5878,8 +5533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -5895,8 +5549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -5912,8 +5565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -5929,8 +5581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -5946,8 +5597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -5963,8 +5613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -5980,8 +5629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -5997,8 +5645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -6014,8 +5661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -6031,8 +5677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -6048,8 +5693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -6065,8 +5709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -6082,8 +5725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -6099,8 +5741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -6116,8 +5757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -6133,8 +5773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -6150,8 +5789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -6167,8 +5805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -6184,8 +5821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -6201,8 +5837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -6218,8 +5853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -6235,8 +5869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -6252,8 +5885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -6269,8 +5901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -6286,8 +5917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -6303,8 +5933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -6320,8 +5949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -6337,8 +5965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -6354,8 +5981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -6371,8 +5997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -6388,8 +6013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -6405,8 +6029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -6422,8 +6045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -6439,8 +6061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -6456,8 +6077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -6473,8 +6093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -6490,8 +6109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -6507,8 +6125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -6524,8 +6141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -6541,8 +6157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -6558,8 +6173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -6575,8 +6189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -6592,8 +6205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -6609,8 +6221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -6626,8 +6237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -6643,8 +6253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -6660,8 +6269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -6677,8 +6285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -6694,8 +6301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -6711,8 +6317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -6728,8 +6333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -6745,8 +6349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -6762,8 +6365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -6779,8 +6381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -6796,8 +6397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -6813,8 +6413,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -6830,8 +6429,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -6847,8 +6445,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -6864,8 +6461,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -6881,8 +6477,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -6898,8 +6493,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -6915,8 +6509,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -6932,8 +6525,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -6949,8 +6541,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -6966,8 +6557,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -6983,8 +6573,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -7000,8 +6589,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -7017,8 +6605,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -7034,8 +6621,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -7051,8 +6637,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -7068,8 +6653,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -7085,8 +6669,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -7102,8 +6685,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -7119,8 +6701,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -7136,8 +6717,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -7153,8 +6733,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -7170,8 +6749,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -7187,8 +6765,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -7204,8 +6781,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -7221,8 +6797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -7238,8 +6813,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -7255,8 +6829,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -7272,8 +6845,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -7289,8 +6861,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -7306,8 +6877,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -7323,8 +6893,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -7340,8 +6909,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -7357,8 +6925,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -7374,8 +6941,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -7391,8 +6957,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -7408,8 +6973,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -7425,8 +6989,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -7442,8 +7005,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -7459,8 +7021,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -7476,8 +7037,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -7493,8 +7053,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -7510,8 +7069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -7527,8 +7085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -7544,8 +7101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -7561,8 +7117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -7578,8 +7133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -7595,8 +7149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -7612,8 +7165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -7629,8 +7181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -7646,8 +7197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -7663,8 +7213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -7680,8 +7229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -7697,8 +7245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -7714,8 +7261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -7731,8 +7277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -7748,8 +7293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -7765,8 +7309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -7782,8 +7325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -7799,8 +7341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -7816,8 +7357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -7833,8 +7373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -7850,8 +7389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -7867,8 +7405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -7884,8 +7421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -7901,8 +7437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -7918,8 +7453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -7935,8 +7469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -7952,8 +7485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -7969,8 +7501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -7986,8 +7517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -8003,8 +7533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -8020,8 +7549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -8037,8 +7565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -8054,8 +7581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -8071,8 +7597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -8088,8 +7613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -8105,8 +7629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -8122,8 +7645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -8139,8 +7661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -8156,8 +7677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -8173,8 +7693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -8190,8 +7709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -8207,8 +7725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -8224,8 +7741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -8241,8 +7757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -8258,8 +7773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -8275,8 +7789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -8292,8 +7805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -8309,8 +7821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -8326,8 +7837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -8343,8 +7853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -8360,8 +7869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -8377,8 +7885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -8394,8 +7901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -8411,8 +7917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -8428,8 +7933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -8445,8 +7949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -8462,8 +7965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -8479,8 +7981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -8496,8 +7997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -8513,8 +8013,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -8530,8 +8029,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -8547,8 +8045,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -8564,8 +8061,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -8581,8 +8077,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -8598,8 +8093,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -8615,8 +8109,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -8632,8 +8125,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -8649,8 +8141,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -8666,8 +8157,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -8683,8 +8173,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -8700,8 +8189,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -8717,8 +8205,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -8734,8 +8221,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -8751,8 +8237,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -8768,8 +8253,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -8785,8 +8269,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -8802,8 +8285,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -8819,8 +8301,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -8836,8 +8317,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -8853,8 +8333,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -8870,8 +8349,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -8887,8 +8365,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -8904,8 +8381,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -8921,8 +8397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -8938,8 +8413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -8955,8 +8429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -8972,8 +8445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -8989,8 +8461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -9006,8 +8477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -9023,8 +8493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -9040,8 +8509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -9057,8 +8525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -9074,8 +8541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -9091,8 +8557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -9108,8 +8573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -9125,8 +8589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -9142,8 +8605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -9159,8 +8621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -9176,8 +8637,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -9193,8 +8653,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -9210,8 +8669,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -9227,8 +8685,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -9244,8 +8701,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -9261,8 +8717,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -9278,8 +8733,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -9295,8 +8749,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -9312,8 +8765,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -9329,8 +8781,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -9346,8 +8797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -9363,8 +8813,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -9380,8 +8829,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -9397,8 +8845,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -9414,8 +8861,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -9431,8 +8877,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -9448,8 +8893,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -9465,8 +8909,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -9482,8 +8925,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -9499,8 +8941,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -9516,8 +8957,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -9533,8 +8973,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -9550,8 +8989,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -9567,8 +9005,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -9584,8 +9021,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -9601,8 +9037,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -9618,8 +9053,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -9635,8 +9069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -9652,8 +9085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -9669,8 +9101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -9686,8 +9117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -9703,8 +9133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -9720,8 +9149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -9737,8 +9165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -9754,8 +9181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -9771,8 +9197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -9788,8 +9213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -9805,8 +9229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -9822,8 +9245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -9839,8 +9261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -9856,8 +9277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -9873,8 +9293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -9890,8 +9309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -9907,8 +9325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -9924,8 +9341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -9941,8 +9357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -9958,8 +9373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -9975,8 +9389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -9992,8 +9405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -10009,8 +9421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -10026,8 +9437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -10043,8 +9453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -10060,8 +9469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -10077,8 +9485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -10094,8 +9501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -10111,8 +9517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -10128,8 +9533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -10145,8 +9549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -10162,8 +9565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -10179,8 +9581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -10196,8 +9597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -10213,8 +9613,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -10230,8 +9629,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -10247,8 +9645,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -10264,8 +9661,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -10281,8 +9677,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -10298,8 +9693,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -10315,8 +9709,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -10332,8 +9725,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -10349,8 +9741,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -10366,8 +9757,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -10383,8 +9773,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -10400,8 +9789,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -10417,8 +9805,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -10434,8 +9821,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -10451,8 +9837,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -10468,8 +9853,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -10485,8 +9869,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -10502,8 +9885,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -10519,8 +9901,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -10536,8 +9917,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -10553,8 +9933,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -10570,8 +9949,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -10587,8 +9965,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -10604,8 +9981,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -10621,8 +9997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -10638,8 +10013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -10655,8 +10029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -10672,8 +10045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -10689,8 +10061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -10706,8 +10077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -10723,8 +10093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -10740,8 +10109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -10757,8 +10125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -10774,8 +10141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -10791,8 +10157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -10808,8 +10173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -10825,8 +10189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -10842,8 +10205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -10859,8 +10221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -10876,8 +10237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -10893,8 +10253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -10910,8 +10269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -10927,8 +10285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -10944,8 +10301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -10961,8 +10317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -10978,8 +10333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -10995,8 +10349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -11012,8 +10365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -11029,8 +10381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -11046,8 +10397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -11063,8 +10413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -11080,8 +10429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -11097,8 +10445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -11114,8 +10461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -11131,8 +10477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -11148,8 +10493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -11165,8 +10509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -11182,8 +10525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -11199,8 +10541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -11216,8 +10557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -11233,8 +10573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -11250,8 +10589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -11267,8 +10605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -11284,8 +10621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -11301,8 +10637,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -11318,8 +10653,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -11335,8 +10669,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -11352,8 +10685,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -11369,8 +10701,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -11386,8 +10717,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -11403,8 +10733,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -11420,8 +10749,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -11437,8 +10765,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -11454,8 +10781,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -11471,8 +10797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -11488,8 +10813,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -11505,8 +10829,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -11522,8 +10845,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -11539,8 +10861,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -11556,8 +10877,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -11573,8 +10893,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -11590,8 +10909,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -11607,8 +10925,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -11624,8 +10941,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -11641,8 +10957,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -11658,8 +10973,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -11675,8 +10989,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -11692,8 +11005,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -11709,8 +11021,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -11726,8 +11037,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -11743,8 +11053,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -11760,8 +11069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -11777,8 +11085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -11794,8 +11101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -11811,8 +11117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -11828,8 +11133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -11845,8 +11149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -11862,8 +11165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -11879,8 +11181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -11896,8 +11197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -11913,8 +11213,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -11930,8 +11229,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -11947,8 +11245,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -11964,8 +11261,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -11981,8 +11277,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -11998,8 +11293,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -12015,8 +11309,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -12032,8 +11325,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -12049,8 +11341,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -12066,8 +11357,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -12083,8 +11373,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -12100,8 +11389,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -12117,8 +11405,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -12134,8 +11421,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -12151,8 +11437,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -12168,8 +11453,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -12185,8 +11469,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -12202,8 +11485,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -12219,8 +11501,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -12236,8 +11517,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -12253,8 +11533,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -12270,8 +11549,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -12287,8 +11565,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -12304,8 +11581,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -12321,8 +11597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -12338,8 +11613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -12355,8 +11629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -12372,8 +11645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -12389,8 +11661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -12406,8 +11677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -12423,8 +11693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -12440,8 +11709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -12457,8 +11725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -12474,8 +11741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -12491,8 +11757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -12508,8 +11773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -12525,8 +11789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -12542,8 +11805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -12559,8 +11821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -12576,8 +11837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -12593,8 +11853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -12610,8 +11869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -12627,8 +11885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -12644,8 +11901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -12661,8 +11917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -12678,8 +11933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -12695,8 +11949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -12712,8 +11965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -12729,8 +11981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -12746,8 +11997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -12763,8 +12013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -12780,8 +12029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -12797,8 +12045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -12814,8 +12061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -12831,8 +12077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -12848,8 +12093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -12865,8 +12109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -12882,8 +12125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -12899,8 +12141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -12916,8 +12157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -12933,8 +12173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -12950,8 +12189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -12967,8 +12205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -12984,8 +12221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -13001,8 +12237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -13018,8 +12253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -13035,8 +12269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -13052,8 +12285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -13069,8 +12301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -13086,8 +12317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -13103,8 +12333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -13120,8 +12349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -13137,8 +12365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -13154,8 +12381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -13171,8 +12397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -13188,8 +12413,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -13205,8 +12429,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -13222,8 +12445,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -13239,8 +12461,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -13256,8 +12477,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -13273,8 +12493,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -13290,8 +12509,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -13307,8 +12525,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -13324,8 +12541,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -13341,8 +12557,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -13358,8 +12573,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -13375,8 +12589,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -13392,8 +12605,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -13409,8 +12621,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -13426,8 +12637,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -13443,8 +12653,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -13460,8 +12669,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -13477,8 +12685,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -13494,8 +12701,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -13511,8 +12717,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -13528,8 +12733,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -13545,8 +12749,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -13562,8 +12765,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -13579,8 +12781,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -13596,8 +12797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -13613,8 +12813,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -13630,8 +12829,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -13647,8 +12845,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -13664,8 +12861,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -13681,8 +12877,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -13698,8 +12893,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -13715,8 +12909,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -13732,8 +12925,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -13749,8 +12941,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -13766,8 +12957,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -13783,8 +12973,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -13800,8 +12989,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -13817,8 +13005,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -13834,8 +13021,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -13851,8 +13037,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -13868,8 +13053,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -13885,8 +13069,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -13902,8 +13085,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -13919,8 +13101,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -13936,8 +13117,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -13953,8 +13133,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -13970,8 +13149,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -13987,8 +13165,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -14004,8 +13181,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -14021,8 +13197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -14038,8 +13213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -14055,8 +13229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -14072,8 +13245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -14089,8 +13261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -14106,8 +13277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -14123,8 +13293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -14140,8 +13309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -14157,8 +13325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -14174,8 +13341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -14191,8 +13357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -14208,8 +13373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -14225,8 +13389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -14242,8 +13405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -14259,8 +13421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -14276,8 +13437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -14293,8 +13453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -14310,8 +13469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -14327,8 +13485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -14344,8 +13501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -14361,8 +13517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -14378,8 +13533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -14395,8 +13549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -14412,8 +13565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -14429,8 +13581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -14446,8 +13597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -14463,8 +13613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -14480,8 +13629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -14497,8 +13645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -14514,8 +13661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -14531,8 +13677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -14548,8 +13693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -14565,8 +13709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -14582,8 +13725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -14599,8 +13741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -14616,8 +13757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -14633,8 +13773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -14650,8 +13789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -14667,8 +13805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -14684,8 +13821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -14701,8 +13837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -14718,8 +13853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -14735,8 +13869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -14752,8 +13885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -14769,8 +13901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -14786,8 +13917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -14803,8 +13933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -14820,8 +13949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -14837,8 +13965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -14854,8 +13981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -14871,8 +13997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -14888,8 +14013,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -14905,8 +14029,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -14922,8 +14045,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -14939,8 +14061,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -14956,8 +14077,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -14973,8 +14093,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -14990,8 +14109,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -15007,8 +14125,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -15024,8 +14141,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -15041,8 +14157,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -15058,8 +14173,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -15075,8 +14189,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -15092,8 +14205,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -15109,8 +14221,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -15126,8 +14237,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -15143,8 +14253,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -15160,8 +14269,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -15177,8 +14285,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -15194,8 +14301,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -15211,8 +14317,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -15228,8 +14333,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -15245,8 +14349,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -15262,8 +14365,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -15279,8 +14381,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -15296,8 +14397,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 1,
@@ -15313,8 +14413,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 2,
@@ -15330,8 +14429,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 3,
@@ -15347,8 +14445,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 4,
@@ -15364,8 +14461,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 5,
@@ -15381,8 +14477,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 6,
@@ -15398,8 +14493,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 7,
@@ -15415,8 +14509,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 8,
@@ -15432,8 +14525,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 9,
@@ -15449,8 +14541,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 10,
@@ -15466,8 +14557,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 11,
@@ -15483,8 +14573,7 @@ const data = [
     "stock_brand": "EXN",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 12,
@@ -15500,8 +14589,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 13,
@@ -15517,8 +14605,7 @@ const data = [
     "stock_brand": "Aurora",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 14,
@@ -15534,8 +14621,7 @@ const data = [
     "stock_brand": "Castrol",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 15,
@@ -15551,8 +14637,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 16,
@@ -15568,8 +14653,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 17,
@@ -15585,8 +14669,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 18,
@@ -15602,8 +14685,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 19,
@@ -15619,8 +14701,7 @@ const data = [
     "stock_brand": "KYB",
     "category": "sandals",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 20,
@@ -15636,8 +14717,7 @@ const data = [
     "stock_brand": "Honda",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 21,
@@ -15653,8 +14733,7 @@ const data = [
     "stock_brand": "Mistubishi",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 22,
@@ -15670,8 +14749,7 @@ const data = [
     "stock_brand": "Proton",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 23,
@@ -15687,8 +14765,7 @@ const data = [
     "stock_brand": null,
     "category": "sneakers",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 24,
@@ -15704,8 +14781,7 @@ const data = [
     "stock_brand": "Toyota",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 25,
@@ -15721,8 +14797,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 26,
@@ -15738,8 +14813,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 27,
@@ -15755,8 +14829,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 28,
@@ -15772,8 +14845,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 29,
@@ -15789,8 +14861,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 30,
@@ -15806,8 +14877,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 31,
@@ -15823,8 +14893,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 32,
@@ -15840,8 +14909,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 33,
@@ -15857,8 +14925,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 34,
@@ -15874,8 +14941,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 35,
@@ -15891,8 +14957,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 36,
@@ -15908,8 +14973,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 37,
@@ -15925,8 +14989,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 38,
@@ -15942,8 +15005,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 39,
@@ -15959,8 +15021,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 40,
@@ -15976,8 +15037,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 41,
@@ -15993,8 +15053,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 42,
@@ -16010,8 +15069,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 43,
@@ -16027,8 +15085,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 44,
@@ -16044,8 +15101,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 45,
@@ -16061,8 +15117,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 46,
@@ -16078,8 +15133,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 47,
@@ -16095,8 +15149,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 48,
@@ -16112,8 +15165,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 49,
@@ -16129,8 +15181,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 50,
@@ -16146,8 +15197,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 51,
@@ -16163,8 +15213,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 52,
@@ -16180,8 +15229,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 53,
@@ -16197,8 +15245,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 54,
@@ -16214,8 +15261,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 55,
@@ -16231,8 +15277,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 56,
@@ -16248,8 +15293,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 57,
@@ -16265,8 +15309,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 58,
@@ -16282,8 +15325,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 59,
@@ -16299,8 +15341,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 60,
@@ -16316,8 +15357,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 61,
@@ -16333,8 +15373,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 62,
@@ -16350,8 +15389,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 63,
@@ -16367,8 +15405,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 64,
@@ -16384,8 +15421,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 65,
@@ -16401,8 +15437,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 66,
@@ -16418,8 +15453,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 67,
@@ -16435,8 +15469,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 68,
@@ -16452,8 +15485,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 69,
@@ -16469,8 +15501,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 70,
@@ -16486,8 +15517,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 71,
@@ -16503,8 +15533,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 72,
@@ -16520,8 +15549,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 73,
@@ -16537,8 +15565,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 74,
@@ -16554,8 +15581,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 75,
@@ -16571,8 +15597,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 76,
@@ -16588,8 +15613,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 77,
@@ -16605,8 +15629,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 78,
@@ -16622,8 +15645,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 79,
@@ -16639,8 +15661,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 80,
@@ -16656,8 +15677,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 81,
@@ -16673,8 +15693,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 82,
@@ -16690,8 +15709,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 83,
@@ -16707,8 +15725,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 84,
@@ -16724,8 +15741,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 85,
@@ -16741,8 +15757,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 86,
@@ -16758,8 +15773,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 87,
@@ -16775,8 +15789,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 88,
@@ -16792,8 +15805,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 89,
@@ -16809,8 +15821,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 90,
@@ -16826,8 +15837,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 91,
@@ -16843,8 +15853,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 92,
@@ -16860,8 +15869,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 93,
@@ -16877,8 +15885,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 94,
@@ -16894,8 +15901,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 95,
@@ -16911,8 +15917,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 96,
@@ -16928,8 +15933,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 97,
@@ -16945,8 +15949,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 98,
@@ -16962,8 +15965,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "flats",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 99,
@@ -16979,8 +15981,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   },
   {
     "stock_id": 100,
@@ -16996,9 +15997,7 @@ const data = [
     "stock_brand": "Dummy",
     "category": "heels",
     "update_date": "2024-04-23T18:25:43.511Z",
-    "stock_availability": 1,
-    "warranty": ""
+    "stock_availability": 1
   }
 ]
-
 export default data;

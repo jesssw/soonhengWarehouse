@@ -21,11 +21,6 @@ function Category({ handleChange,value }) {
       <option value="">All</option>
       {categoryOptions}
 
-           {/* <option value="Oil Filter">Oil Filter</option>
-           <option value="sneakers">Sneakers</option>
-           <option value="flats">Flats</option>
-           <option value="sandals">Sandals</option>
-           <option value="heels">Heels</option> */}
         </select>
       </div>
     </div>
